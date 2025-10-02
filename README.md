@@ -26,6 +26,10 @@ they denote, respectively, the category id, object instance id, the frame number
 
 Feel free to make a pull request with a version that uses directories.
 
+Alternatively, we provide another code for generating the dataset, but note that it was not tested with this code and likely needs modifications:
+
+`python3 scripts/construct_mvi.py --path $DATA_ROOT`
+
 ## Train
 
 
